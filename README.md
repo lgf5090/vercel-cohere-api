@@ -1,8 +1,8 @@
 
-# Groq API Proxy
-vercel-groq-api
+# Cohere API Proxy
+vercel-cohere-api
 
-A simple proxy service for Groq API using Vercel Edge Functions.
+A simple proxy service for Cohere API using Vercel Edge Functions.
 
 ## Features
 
@@ -13,11 +13,11 @@ A simple proxy service for Groq API using Vercel Edge Functions.
 
 ## Usage
 
-After deployment, replace `api.groq.com` with your Vercel domain:
+After deployment, replace `api.cohere.com` with your Vercel domain:
 
 ```bash
 # Original
-curl https://api.groq.com/v1/models
+curl https://api.cohere.com/v1/models
 
 # Through proxy
 curl https://your-proxy.vercel.app/v1/models
